@@ -11,9 +11,9 @@ model = AccidentDetectionModel("model.json", 'model_weights.h5')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # Email configuration
-sender_email = "accidentdetectioncam@gmail.com"
-sender_password = "xbaqvdeltnhquktw"
-receiver_email = "kalparatna2003@gmail.com"
+sender_email = "Sender Mail"
+sender_password = "app_password"
+receiver_email = "Enter the Receiver Mail Here"
 subject = "Accident Alert"
 body = "Accident happend at the Location .......!"
 
